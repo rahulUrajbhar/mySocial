@@ -1,0 +1,76 @@
+.post{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.postWrapper{
+    margin: 20px;
+}
+.postTop{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postProfileImg{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.PostDetails{
+    display: flex;
+    align-items: center;
+}
+.postUserName{
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 15px;
+}
+.postCenter{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.postDiscription{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.PostImg{
+    padding-top: 12px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.postBottum{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postLikes{
+    display: flex;
+    align-items:normal;
+}
+.postLikeIcon{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.postLikesCounter{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer
+}
+.postCommentsCounter{
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: rgb(58, 58, 58);
+}
